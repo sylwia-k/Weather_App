@@ -73,7 +73,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-        api_key = "8edf3b82de0b639a2a0f2d2543d72952"
+        api_key = "none"
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
         response = requests.get(url)
         data = response.json()
