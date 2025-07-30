@@ -72,7 +72,7 @@ class Ui_MainWindow(object):
 
     def get_weather(self):
 
-        api_key = "8edf3b82de0b639a2a0f2d2543d72952"
+        api_key = "none"
         city = self.plainTextEdit.toPlainText()
 
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
